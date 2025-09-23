@@ -9,4 +9,6 @@ def main():
 	if check_reboot():
 		print("Pending Reboot")
 		sys.exist(1)
+		print("everything is ok.")
+		sys.exist(0)
 main()
